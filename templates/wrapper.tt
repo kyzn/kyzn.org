@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>[% title %]</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="default.css" rel="stylesheet">
+  <link href="atom.xml" rel="alternate" title="Atom feed" type="application/atom+xml">
+  <link href="feed.json" rel="alternate" title="JSON feed" type="application/json">
+
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+</head>
+<body>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-9">
+      [% content %]
+    </div>
+    <div class="col-sm-3 sidebar">
+      <section>
+        <a href="/"><img src="images/blog.png" width="80%"></a>
+        <h1>Hello 👋</h1>
+        <p>This is Kivanc Yazan, I'm a software engineer at ZipRecruiter. Here's my <a href="https://github.com/kyzn" target="_blank">GitHub</a>. Nice to meet you!</p>
+      </section>
+      <section>
+      [% current_year = 0 %]
+      [% FOREACH post IN plerd.posts %]
+        [% post_year = post.year %]
+        [% IF !current_year || current_year != post_year %]
+          <h1>[% post_year %]</h1>
+        [% END %]
+         - <a href="[% post.uri %]">[% post.title %]</a><br>
+        [% current_year = post_year %]
+      [% END %]
+      </section>
+      <section>
+        <h1>License</h1>
+        This website is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.<br>
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" src="images/by-nc-sa.png" /></a>
+      </section>
+    </div>
+  </div>
+  <br><br>
+</div>
+</body>
+</html>

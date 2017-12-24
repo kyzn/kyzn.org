@@ -1,0 +1,56 @@
+body {
+  background:#f2f2f2;
+  font: 18px Helvetica, bodyfont, serif;
+  color: #111;
+  word-wrap: break-word;
+  text-align: left;
+}
+.page-header {
+  border-bottom: 1px solid #555;
+}
+.sidebar h1 {
+  font-size: 1.5em;
+}
+img.author-link {
+  width: 20px;
+}
+.sidebar section {
+  margin-top: 2em;
+}
+img {
+  max-width: 90%;
+  max-height: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+code {
+  white-space: normal;
+}
+hr {
+  color: black;
+  height: 3px;
+}
+section {
+  font-size: 15px;
+  text-align: left;
+}
+.caption {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: -20px;
+  margin-bottom: 2em;
+  line-height:1em
+}
+p {
+  margin: 10px 10px 20px 0;
+}
+pre {
+  margin: 0 50px 10px 0;
+  background-color: #fff;
+}
+h1 small {
+  color: #111;
+}
+blockquote {
+  border-left: 3px solid #555;
+}
