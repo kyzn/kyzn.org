@@ -6,6 +6,7 @@ body {
   text-align: left;
 }
 .page-header {
+  margin: 40px 50px 10px 0px;
   border-bottom: 1px solid #555;
 }
 .sidebar h1 {
@@ -42,7 +43,7 @@ section {
   line-height:1em
 }
 p {
-  margin: 10px 10px 20px 0;
+  margin: 10px 50px 20px 0px;
 }
 pre {
   margin: 0 50px 10px 0;
@@ -53,4 +54,8 @@ h1 small {
 }
 blockquote {
   border-left: 3px solid #555;
+}
+.row {
+  margin-right: 0px;
+  margin-left:  0px;
 }

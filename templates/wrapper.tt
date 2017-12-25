@@ -18,7 +18,7 @@
     </div>
     <div class="col-sm-3 sidebar">
       <section>
-        <a href="/"><img src="images/blog.png" width="80%"></a>
+        <a href="/"><center><img src="images/blog.png"></center></a>
         <h1>Hello 👋</h1>
         <p>This is Kivanc Yazan, I'm a software engineer at ZipRecruiter. Here's my <a href="https://github.com/kyzn" target="_blank">GitHub</a>. Nice to meet you!</p>
       </section>
