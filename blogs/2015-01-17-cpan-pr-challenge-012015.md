@@ -22,4 +22,4 @@ It's a small contribution, but I believe it's still better than giving nothing t
 
 I'll finish with two quotes: One is about pull requests. They say that the 'true' way of submitting a PR is by [creating a new branch](http://neilb.org/2015/01/10/pr-in-branch.html). This was something I was not aware of. The other one comes from the mail-list of CPAN-PR: They say "Code can almost always use more comments: this is no exception."
 
-If you want to join in, I suppose you're not late. Try to e-mail Neil Bowers and he'll most probably assign you a module. See January assignments [here](http://rawgit.com/CPAN-PRC/resources/master/january.html) (not all of them are public, so the number is higher than what you see.)
+If you want to join in, I suppose you're not late. Try to e-mail Neil Bowers and he'll most probably assign you a module. See January assignments [here](http://cpan-prc.org/2015/january.html) (not all of them are public, so the number is higher than what you see.)
