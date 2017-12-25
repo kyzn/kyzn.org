@@ -6,7 +6,6 @@ body {
   text-align: left;
 }
 .page-header {
-  margin: 40px 50px 10px 0px;
   border-bottom: 1px solid #555;
 }
 .sidebar h1 {
@@ -38,15 +37,11 @@ section {
 .caption {
   font-size: 15px;
   font-style: italic;
-  margin-top: -20px;
-  margin-bottom: 2em;
+  margin: -15px 0 2em 0;
   line-height:1em
 }
-p {
-  margin: 10px 50px 20px 0px;
-}
 pre {
-  margin: 0 50px 10px 0;
+  margin: 0 0 10px 0;
   background-color: #fff;
 }
 h1 small {
