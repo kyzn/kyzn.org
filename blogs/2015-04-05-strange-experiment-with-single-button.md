@@ -8,7 +8,7 @@ A few days ago (on april fools to be exact) admins of Reddit had posted a [blog]
 
 Most of us remember the old flash animation with a single big red button. The button which talks to you all the time, trying to convince you to not to press it. It was even changing shapes and colours from time to time. I have no idea whether the above mentioned the-button was inspired by this, but they're quite similar to each other. You wouldn't expect an application as simple as a button and a text to be so entertaining, but it turns out it's quite possible. A very similar approach is employed in Reddit's take on button as well. There's only a button with a timer, hence you don't see the point.. But given the community of Reddit is as populated as 150M, and there are a ton of creative people uploading content to the platform all the time, you can actually see why it exploded.
 
-![](images/button-bigred-2.png)
+![](images/button-bigred-1.png)
 <div class="caption">Spoiler alert: It's lying, it actually cares</div>
 
 When I saw the blog post, at first I thought this is an experiment to see how long would it take for timer to be reset, hence the title. In other words, I was expecting half of users to wait patiently for timer to run off, and other half trolling them by clicking. I had the image of people who are trying to convince clickers to stop in my mind, as a call for cooperation. I would have guessed that it wouldn't reach zero at least not for the first 24 hours, but I couldn't imagine it being alive so long. And that's mostly because I didn't read the rules *before* clicking the button.
