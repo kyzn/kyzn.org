@@ -30,7 +30,7 @@ A good place to start is [metacpan](https://metacpan.org), a CPAN search engine 
 
 Once you've identified the changes you'd like to make, fork the module on GitHub, commit your changes and open a pull request with the new changes. Then reply to your assignment email saying "It's done!", and link to your pull requests on GitHub:
 
-![](/images/why-should-you-join-cpan-prc/pr-done.png)
+![](/images/pr-done.png)
 
 Although it's better to do your assignments every month, you may not be willing to commit to it, and that is fine! If something comes up, you can skip a month. If you need more time for a module, you can stick to your assignment for longer. There's a solution as long as you want to keep participating.
 
