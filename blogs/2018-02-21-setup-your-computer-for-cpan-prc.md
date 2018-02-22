@@ -1,4 +1,4 @@
-Setup your computer for CPAN PRC
+Setup your computer for CPAN-PRC
 2018-02-21T21:00:00Z
 
 _This blog is originally posted on [perl.com](https://www.perl.com/article/setup-your-computer-for-cpan-prc/), edited by [David Farrell](https://www.perl.com/authors/david-farrell/)._
