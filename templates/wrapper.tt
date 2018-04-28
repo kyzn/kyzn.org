@@ -8,13 +8,6 @@
   <link href="default.css" rel="stylesheet">
   <link href="atom.xml" rel="alternate" title="Atom feed" type="application/atom+xml">
   <link href="feed.json" rel="alternate" title="JSON feed" type="application/json">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115206591-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-115206591-1');
-  </script>
 </head>
 <body>
   <div class="container">
