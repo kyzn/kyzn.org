@@ -1,6 +1,6 @@
 body {
-  background:#f2f2f2;
-  font: 18px Helvetica, bodyfont, serif;
+  background:#d9d3d1;
+  font: 16px Helvetica, bodyfont, serif;
   color: #111;
   word-wrap: break-word;
   text-align: left;
@@ -27,8 +27,10 @@ code {
   white-space: normal;
 }
 hr {
-  color: black;
-  height: 3px;
+  color: #000;
+  background-color: #000;
+  height: 1px;
+  border: none;
 }
 section {
   font-size: 15px;
@@ -40,12 +42,22 @@ section {
   margin: -15px 0 2em 0;
   line-height:1em
 }
-pre {
+pre, code {
   margin: 0 0 10px 0;
-  background-color: #fff;
+  background-color: #eee;
+  border: none;
+  color: inherit;
 }
 h1 small {
   color: #111;
+}
+h2 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+h3 {
+  font-size: 20px;
+  margin-top: 25px;
 }
 blockquote {
   border-left: 3px solid #555;
@@ -53,4 +65,12 @@ blockquote {
 .row {
   margin-right: 0px;
   margin-left:  0px;
+}
+a:hover, a:focus {
+  color: #3333dd;
+  text-decoration: underline;
+}
+a {
+  color: #3333dd;
+  text-decoration: none;
 }
