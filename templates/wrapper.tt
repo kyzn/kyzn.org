@@ -18,8 +18,7 @@
     <div class="col-sm-3 sidebar">
       <section>
         <a href="/"><center><img src="images/blog.png"></center></a>
-        <h1>Hello 👋</h1>
-        <p>This is Kivanc Yazan, I'm a software engineer at ZipRecruiter. Here's my <a href="https://github.com/kyzn" target="_blank">GitHub</a>. Nice to meet you!</p>
+        <p>This is Kivanc Yazan, I'm a software engineer at <a href="https://www.ziprecruiter.com/" target="_blank">ZipRecruiter</a>. Here's my <a href="https://github.com/kyzn" target="_blank">GitHub</a>, and here's my <a href="https://twitter.com/kyzn" target="_blank">Twitter</a>. Nice to meet you!</p>
       </section>
       <section>
       [% current_year = 0 %]
