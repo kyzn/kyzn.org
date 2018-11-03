@@ -26,11 +26,11 @@ I am also going to recommend "[Developers, engineers and the downward spiral](ht
 Neil Bowers is organizing Pull Request Challenge for 4 years now. In January 2018, he announced that it is going to [end this year](http://neilb.org/2018/01/01/cpan-prc-2018.html). I'm trying to build a successor named [pullrequest.club](https://pullrequest.club).  I've presented a talk that explained what Pull Request Challenge is in general.
 
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/9QYBMNRaFw0?start=6560" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/QiZOEIwkuek" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Mohammad Anwar gave a great talk on how to become a CPAN contributor. I recommend this talk to everyone, but especially to people who feel that "their code is not good enough".  He will tell you why you don't have to be an expert to contribute! If this sounds like a joke to you, it's not. You really don't have to be an expert. He will also tell you about the self-confidence boost you'll get when your PR gets merged.
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/gb69MTktlzw?start=5598" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/QYN1nijo9VY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Some Notes
 
