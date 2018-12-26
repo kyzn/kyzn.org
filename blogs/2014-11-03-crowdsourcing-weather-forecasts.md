@@ -16,15 +16,15 @@ Installing a new weather station is very expensive, and the data a station read
 
 As far as I know, it's not yet available for iOS powered devices, but I think they will be developing one as Apple started putting barometers. If you have one of the following devices, or their respective upgraded models, you can contribute to the science! Get the app right [here](https://play.google.com/store/apps/details?id=ca.cumulonimbus.barometernetwork).
 
-Galaxy S3, S4, S5
-Galaxy Nexus
-Galaxy Note, 2, 3
-Nexus 4, 5, 6, 9, 10
-Xoom
-RAZR MAXX HD
-Xiaomi MI-2, MI-3
-Droid Ultra
-Moto X
-HTC One (M8)
+- Galaxy S3, S4, S5
+- Galaxy Nexus
+- Galaxy Note, 2, 3
+- Nexus 4, 5, 6, 9, 10
+- Xoom
+- RAZR MAXX HD
+- Xiaomi MI-2, MI-3
+- Droid Ultra
+- Moto X
+- HTC One (M8)
 
 Let's all see how this, and similar crowdsourcing applications, will continue changing the way we live.

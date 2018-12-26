@@ -47,6 +47,7 @@ pre, code {
   background-color: #eee;
   border: none;
   color: inherit;
+  line-height: 1.5;
 }
 h1 small {
   color: #111;
