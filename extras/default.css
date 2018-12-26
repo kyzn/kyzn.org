@@ -42,6 +42,11 @@ section {
   margin: -15px 0 2em 0;
   line-height:1em
 }
+pre {
+  margin-left: 5px;
+  max-width: 95%;
+  box-shadow: 8px 5px 5px 0px #aaa;
+}
 pre, code {
   margin: 0 0 10px 0;
   background-color: #eee;
