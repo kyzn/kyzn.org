@@ -18,7 +18,14 @@
     <div class="col-sm-3 sidebar">
       <section>
         <a href="/"><center><img src="images/blog.png"></center></a>
-        <p>This is Kivanc Yazan, I'm a software engineer at <a href="https://www.ziprecruiter.com/" target="_blank">ZipRecruiter</a>. Here's my <a href="https://github.com/kyzn" target="_blank">GitHub</a>, and here's my <a href="https://twitter.com/kyzn" target="_blank">Twitter</a>. You can email me at kyzn [at] cpan [dot] org. Nice to meet you!</p>
+        <p>This is Kivanc Yazan, I'm a software engineer at <a href="https://www.ziprecruiter.com/" target="_blank">ZipRecruiter</a>. Nice to meet you!</p>
+      </section>
+      <section>
+        <h1>Links</h1>
+        - <a href="https://pullrequest.club" target="_blank">Pull Request Club</a><br>
+        - <a href="https://twitter.com/buyemek" target="_blank">Bu Yemek</a><br>
+        - <a href="https://kyzn.org/slides" target="_blank">Slide Decks</a><br>
+        - <a href="https://github.com/kyzn" target="_blank">GitHub Profile</a>
       </section>
       <section>
       [% current_year = 0 %]
