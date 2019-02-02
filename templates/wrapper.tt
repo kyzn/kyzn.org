@@ -23,16 +23,19 @@
       <section>
         <h1>Links</h1>
         - <a href="https://pullrequest.club" target="_blank">Pull Request Club</a><br>
-        - <a href="https://twitter.com/buyemek" target="_blank">Bu Yemek</a><br>
-        - <a href="https://kyzn.org/slides" target="_blank">Slide Decks</a><br>
-        - <a href="https://github.com/kyzn" target="_blank">GitHub Profile</a>
+        - <a href="https://github.com/kyzn" target="_blank">My GitHub Profile</a><br>
+        - <a href="https://kyzn.org/slides" target="_blank">My Slide Decks</a><br>
+        - <a href="https://twitter.com/Liberation100" target="_blank">War of Liberation</a><br>
+        - <a href="https://twitter.com/Mucadele100" target="_blank">Milli Mücadele</a><br>
+        - <a href="https://twitter.com/buYemek" target="_blank">Boğaziçi Yemekhane</a><br>
       </section>
       <section>
+      <h1>Blogs</h1>
       [% current_year = 0 %]
       [% FOREACH post IN plerd.posts %]
         [% post_year = post.year %]
         [% IF !current_year || current_year != post_year %]
-          <h1>[% post_year %]</h1>
+          <h4>[% post_year %]</h4>
         [% END %]
          - <a href="[% post.uri %]">[% post.title %]</a><br>
         [% current_year = post_year %]
