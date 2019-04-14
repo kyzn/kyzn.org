@@ -26,18 +26,19 @@ I appreciated how Raspbian comes with SSH-disabled by default. It's to prevent s
 
 I have a network protected with a WPA2 password. You might need to do some extra research if you want to connect to, say, an enterprise WiFi.
 
-There's a file in non-boot partition of card: `/etc/wpa_supplicant/wpa_supplicant.conf`. This is the file where we need to place our WiFi password. You can append something that looks like following to the file:
+Just like the file created for enabling ssh, we will create another one for WiFi in the very same "boot" partition, this time with the name `wpa_supplicant.conf`. This file will contain our password. Here's how it should look like:
 
+    ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
     network={
      ssid="my_network"
      psk="my_password"
     }
 
-Make sure NOT to remove quotes. There's a problem with this approach, your password is visible to anyone who has access to the file. It's a better idea to not have it this way. If you are using Ubuntu/Debian, run the following command:
+Make sure NOT to remove quotes. There's one problem with this approach: your password is visible to anyone who has access to the file. It's a better idea to not have it this way. If you are using Ubuntu/Debian, run the following command:
 
     wpa_passphrase "my_network" "my_password"
 
-This will output a similar text:
+This will output a text like below:
 
     network={
      ssid="my_network"
@@ -45,9 +46,7 @@ This will output a similar text:
      psk=a4ea383f2d8e77c45ec859de70b9ea37b30d79153d049cbc88fe6bc86d2cba3d
     }
 
-You can use this instead of the previous one. Make sure to remove the line where password is visible. It starts with `#`, which means it's commented out, and removing it won't affect how it works.
-
-When writing to this file, you will likely need sudo, as file's permissions are a bit strict.
+You can take uncommented `psk` line and replace it with plaintext password. Make sure not to forget `ctrl_interface`, otherwise you might not be able to connect to WiFi.
 
 ## Step 4: Power on!
 
@@ -55,7 +54,9 @@ Before connecting Pi to power, run following command on your machine.
 
     nmap -sP 192.168.0.1/24
 
-This will list devices/hosts connected to your network. Note the number of hosts that are up. Then turn your Pi on, and wait for a minute or two. Run the command again, and you will see a new host (Pi) on you network. Assume its IP address is 192.168.0.13. You can use following command to ssh:
+This will list devices/hosts connected to your network. Note that your network may be on a different address, so try `192.168.1.1` or `192.168.2.1` if above doesn't list anything.
+
+Note the number of hosts that are up. Then turn your Pi on, and wait for 15 seconds. Run the command again, and you will see a new host (Pi) on you network. Assume its IP address is 192.168.0.13. You can use following command to ssh:
 
     ssh pi@192.168.0.13
 
