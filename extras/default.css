@@ -4,6 +4,7 @@ body {
   color: #111;
   word-wrap: break-word;
   text-align: left;
+  line-height: 1.5em;
 }
 .page-header {
   border-bottom: 1px solid #555;
@@ -40,7 +41,6 @@ section {
   font-size: 15px;
   font-style: italic;
   margin: -15px 0 2em 0;
-  line-height:1em
 }
 pre {
   margin-left: 5px;
@@ -52,7 +52,6 @@ pre, code {
   background-color: #eee;
   border: none;
   color: inherit;
-  line-height: 1.5;
 }
 h1 small {
   color: #111;
@@ -96,3 +95,6 @@ th {
   color: #eee;
 }
 tr:hover {background-color: #ccc;}
+p {
+  margin: 15px 0 15px;
+}
